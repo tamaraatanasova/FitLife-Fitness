@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+ol {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 40px;
+  text-transform: capitalize;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+p {
+  font-size: 21px;
+}
+
+img {
+  width: 100%;
+}
+
+.red-background {
+  background-color: #ff6f61;
+}
+.white-background {
+  background-color: #fff;
+}
+.color-white {
+  color: white;
+}
+section {
+  padding: 3.5rem 10%;
+}
+/* header */
+/* ---------------------------- */
+header {
+  height: 95vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+.header-elements {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.header-elements a,
+button {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: all 0.2s ease;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.header-elements a:hover,
+button:hover {
+  cursor: pointer;
+  background-color: #f54438;
+}
+/* ---------------------------- */
+
+/* main */
+/* ---------------------------- */
+/* cards */
+section > p {
+  font-size: 1.35rem;
+}
+
+.cards {
+  display: inline-block;
+  width: 49%;
+}
+
+.vrap {
+  margin-right: -20px;
+}
+
+.card {
+  margin: 15px 30px 15px 0;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 19px -10px rgba(0, 0, 0, 0.75);
+}
+.cards-header {
+  position: relative;
+}
+.cards-header p {
+  margin-bottom: 0;
+  padding: 20px 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #ff6f61;
+  background-color: white;
+  font-weight: bold;
+}
+/* tables */
+table {
+  width: 100%;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* form */
+form {
+  width: 50%;
+  margin: 0 auto 4rem auto;
+  padding: 40px 30px;
+  border-radius: 5px;
+  background-color: #333;
+}
+label,
+input,
+textarea {
+  margin: 15px 0;
+}
+input,
+textarea {
+  padding: 15px 10px;
+}
+input,
+textarea {
+  width: 100%;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border: 2px solid #ff6f61;
+}
+
+button {
+  border: none;
+  font-size: 18px;
+}
+
+/* ---------------------------- */
+
+/* footer */
+/* ---------------------------- */
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  padding: 1rem 0;
+  z-index: 2;
+}
+footer p {
+  margin-bottom: 0;
+}
+/* ---------------------------- */
